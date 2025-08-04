@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0A0E24];
+  }
+  
+}
+
+/* Home Page Background Effects */
+@keyframes pulseLight {
+  0% { transform: scale(0.95); opacity: 0.3; }
+  50% { transform: scale(1.05); opacity: 0.5; }
+  100% { transform: scale(0.95); opacity: 0.3; }
+}
+
+.animate-pulse-light {
+  animation: pulseLight 4s infinite alternate;
+}
+
+.bg-radial-gradient-blue {
+  background: radial-gradient(circle at center, rgba(30, 144, 255, 0.6) 0%, rgba(10, 14, 36, 0) 70%);
+}
+
+.bg-radial-gradient-light-blue {
+  background: radial-gradient(circle at center, rgba(135, 206, 250, 0.5) 0%, rgba(10, 14, 36, 0) 70%);
+}
+
+/* Card Hover Effect */
+.card-glow-effect {
+  position: relative; /* Ensure pseudo-elements are positioned relative to this */
+  overflow: hidden; /* Clip the moving border */
+  box-shadow: 0 0 15px rgba(135, 206, 250, 0.5); /* Existing glow */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.group:hover .card-glow-effect {
+  box-shadow: 0 0 35px rgba(135, 206, 250, 0.9);
+  background-color: #87CEFA; /* Solid light blue background on hover */
+  /* Removed background-size and shine animation for solid color */
+}
+
+.card-glow-effect::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  background: linear-gradient(to right, transparent, #87CEFA, transparent);
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.group:hover .card-glow-effect::before {
+  opacity: 1;
+  animation: snake-border-animation 2s linear infinite;
+}
+
+@keyframes snake-border-animation {
+  0% { transform: translateX(-100%) translateY(0); }
+  25% { transform: translateX(0) translateY(100%); }
+  50% { transform: translateX(100%) translateY(0); }
+  75% { transform: translateX(0) translateY(-100%); }
+  100% { transform: translateX(-100%) translateY(0); }
+}
+
+@keyframes shine {
+  0% { background-position: -100% 0; }
+  100% { background-position: 100% 0; }
+}
+
