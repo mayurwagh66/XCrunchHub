@@ -226,4 +226,4 @@ See the [LICENSE](./LICENSE) file for full details.
 
 ---
 
-© 2024 **XCrunchHub** — All rights reserved.
+© 2025 **XCrunchHub** — All rights reserved.
