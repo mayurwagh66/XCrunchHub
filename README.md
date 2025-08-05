@@ -1,73 +1,92 @@
-# XCrunchHub
+# 🚀 XCrunchHub
 
-![XCrunchHub Logo](./thirdweb-app/src/assets/image.png)
+<img width="1919" height="983" alt="Dashboard_1 1" src="https://github.com/user-attachments/assets/0e0d46d2-9e5d-48c9-858f-7bc870728266" />
+<img width="1919" height="982" alt="Dashboard_1 3" src="https://github.com/user-attachments/assets/c5ea353f-7d7b-45ef-b023-d4e4321ece59" />
+<img width="1919" height="985" alt="Dashboard_1 4" src="https://github.com/user-attachments/assets/c7b3d0d9-68c0-4fd9-bdbf-0cfe249ee91f" />
+<img width="1919" height="984" alt="Dashboard_1 5" src="https://github.com/user-attachments/assets/eba277df-a568-4728-8c59-e3343182a437" />
 
-## Your Trusted DeFi Platform
 
-XCrunchHub is a comprehensive DeFi analytics platform that redefines finance through blockchain technology. Take control of your financial future with advanced analytics, security tools, and comprehensive DeFi management.
 
-📺 **Watch our Demo Video**: [XCrunchHub Demo](https://www.youtube.com/watch?v=ZoMBdVoQzlU)
+> **Your Trusted DeFi Platform**
 
-## Features
+**XCrunchHub** is a powerful DeFi analytics platform that empowers users with blockchain-driven financial insights. Experience next-gen DeFi analytics, smart contract integrations, and AI-powered market analysis—all in one place.
 
-### Token Analysis
-- Comprehensive token analysis with price history, market cap, and trading volume
-- DeFi safety scores to assess risk
+📺 **[Watch Demo Video](https://www.youtube.com/watch?v=ZoMBdVoQzlU)**
+
+---
+
+## 🔍 Features
+
+### 🪙 Token Analysis
+- Comprehensive token data (price history, market cap, volume)
+- DeFi safety scores for risk evaluation
 - Multi-chain support (Ethereum, Polygon, Avalanche, Linea)
-- Detailed technical analysis
+- Detailed technical indicators and trends
+<img width="1919" height="985" alt="Token" src="https://github.com/user-attachments/assets/448f0493-5173-4c37-98b0-bdd5aaeed1fe" />
 
-### Pool Details
-- Detailed DeFi pool analysis with liquidity metrics
-- Yield calculations and historical performance
-- Risk assessment for liquidity pools
-- Multi-chain support for all major DeFi protocols
+### 🏦 Pool Details
+- DeFi pool metrics with liquidity insights
+- Yield/APY calculations and historical data
+- Risk evaluation of liquidity pools
+- Support for major DeFi protocols
+<img width="1916" height="986" alt="Pool" src="https://github.com/user-attachments/assets/2a722339-4a3e-4202-b281-6fdc7018f8f5" />
 
-### AI Analytics
-- Wallet analysis to understand holdings and patterns
-- NFT collection performance metrics
-- Risk forensics to identify potential threats
-- Predictive analytics for market movements
 
-### Fraud Detection
-- Multi-language support for global users
-- Real-time security alerts for suspicious activities
-- Contract analysis to identify vulnerabilities
-- Risk assessment reports for NFT projects and wallet addresses
+### 🤖 AI Analytics
+- Wallet activity & holding analysis
+- NFT collection insights and performance
+- AI-driven risk and threat detection
+- Predictive analysis for market trends
+  <img width="1530" height="971" alt="AI_ANALYSIS" src="https://github.com/user-attachments/assets/e13a9b5f-34b7-4ffc-a17a-710a4eb6ddbd" />
 
-### NFT Market Analytics
-- Security auditing of NFT collections
-- Whale tracking to monitor large holder movements
-- Market analysis and trend identification
-- Comprehensive dashboards with visual data representation
 
-### Telegram Bot Integration
-- AI-powered NFT Copilot Bot accessible at [@xcrunch_bot](https://t.me/xcrunch_bot)
-- Real-time alerts directly to your Telegram for price movements and security threats
-- AI analysis of market opportunities with personalized recommendations
-- Investment advice based on your portfolio holdings and market conditions
-- Instant notifications for suspicious activities in your connected wallets
-- Multi-language support for global accessibility
-- Interactive commands for on-demand analytics and insights
+### 🛡️ Fraud Detection
+- Real-time alerts for smart contract risks
+- Contract vulnerability scanning
+- Risk analysis of NFTs and wallets
+- Multilingual support for global users
+  <img width="1919" height="981" alt="Fraud_dec1" src="https://github.com/user-attachments/assets/6170f992-ce1f-4e9a-a2ae-e7ba0534250b" />
+  <img width="1919" height="985" alt="Fraud_2" src="https://github.com/user-attachments/assets/a23b6708-ad7e-4193-8e28-273f3d44a5b2" />
 
-## Core Principles
 
-1. **Full Transparency**: Public ledger accountability
-2. **Military-grade Security**: Advanced security protocols
-3. **AI-Powered Analytics**: Make informed decisions with AI assistance
-4. **Multi-Chain Support**: Ethereum, Polygon, Avalanche, and Linea networks
+### 🎨 NFT Market Analytics
+- NFT auditing and trend tracking
+- Whale wallet monitoring
+- Interactive dashboards powered by Recharts & D3.js
+- AI-generated recommendations
+  <img width="1414" height="794" alt="NFT_Analytics" src="https://github.com/user-attachments/assets/b19daade-2568-4d8a-95ea-a4010b348bdb" />
+<img width="1919" height="982" alt="NFT_Analytics2" src="https://github.com/user-attachments/assets/5c712138-dfa5-4a99-81eb-b741b047c9aa" />
 
-## API Integration
 
-XCrunchHub leverages powerful APIs to deliver comprehensive blockchain analytics:
+### 💬 Telegram Bot Integration
+- Access our AI-powered NFT Bot: [@xcrunch_bot](https://t.me/xcrunch_bot)
+- Real-time DeFi alerts in Telegram
+- Smart investment suggestions
+- Instant fraud detection alerts
+- Interactive bot commands & multilingual support
 
-### Backend API Endpoints
+---
 
-- **/Token** - Fetches token data across multiple blockchains with caching mechanism
-- **/Pool** - Retrieves pool data with detailed liquidity metrics
-- **/Token/:blockchain/:tokenId** - Gets detailed token metrics for specific tokens
-- **/pooldetails/:blockchain/:pairAddress** - Provides comprehensive pool analytics
-- **/poolmetadata/:blockchain/:pairAddress** - Delivers metadata for DeFi pools
-- **/api/wallet-balance/:address** - Analyzes wallet holdings across multiple chains
+## 🧭 Core Principles
+
+1. **Full Transparency** — Public ledger accountability  
+2. **Military-grade Security** — Advanced protection protocols  
+3. **AI-Powered Analytics** — Smart, data-driven decisions  
+4. **Multi-Chain Support** — Ethereum, Polygon, Avalanche, Linea
+
+---
+
+## 🔗 API Integration
+
+### 🔄 Backend Endpoints
+```bash
+/Token                             → Token data across chains  
+/Pool                              → Pool analytics and liquidity info  
+/Token/:blockchain/:tokenId       → Token detail view  
+/pooldetails/:blockchain/:address → Pool-level insights  
+/poolmetadata/:blockchain/:addr   → Pool metadata  
+/api/wallet-balance/:address      → Wallet cross-chain analyzer  
+
 
 ### External API Integrations
 
