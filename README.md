@@ -1,18 +1,15 @@
 # 🚀 XCrunchHub
 
+**XCrunchHub** is a powerful DeFi analytics platform that empowers users with blockchain-driven financial insights. Experience next-gen DeFi analytics, smart contract integrations, and AI-powered market analysis—all in one place.
+
+📺 **[Watch Demo Video](https://www.youtube.com/watch?v=ZoMBdVoQzlU)**
+
 <img width="1919" height="983" alt="Dashboard_1 1" src="https://github.com/user-attachments/assets/0e0d46d2-9e5d-48c9-858f-7bc870728266" />
 <img width="1919" height="982" alt="Dashboard_1 3" src="https://github.com/user-attachments/assets/c5ea353f-7d7b-45ef-b023-d4e4321ece59" />
 <img width="1919" height="985" alt="Dashboard_1 4" src="https://github.com/user-attachments/assets/c7b3d0d9-68c0-4fd9-bdbf-0cfe249ee91f" />
 <img width="1919" height="984" alt="Dashboard_1 5" src="https://github.com/user-attachments/assets/eba277df-a568-4728-8c59-e3343182a437" />
 
-
-
 > **Your Trusted DeFi Platform**
-
-**XCrunchHub** is a powerful DeFi analytics platform that empowers users with blockchain-driven financial insights. Experience next-gen DeFi analytics, smart contract integrations, and AI-powered market analysis—all in one place.
-
-📺 **[Watch Demo Video](https://www.youtube.com/watch?v=ZoMBdVoQzlU)**
-
 ---
 
 ## 🔍 Features
