@@ -61,8 +61,8 @@
 - Smart investment suggestions
 - Instant fraud detection alerts
 - Interactive bot commands & multilingual support
-<img width="800" height="516" alt="image" src="https://github.com/user-attachments/assets/32b24c51-2a70-4f65-851b-b3186e0a4cce" />
-<img width="1522" height="985" alt="image" src="https://github.com/user-attachments/assets/7731c3fb-bf35-47db-ba2b-eae2dd91f18d" />
+<img width="1520" height="981" alt="image" src="https://github.com/user-attachments/assets/3585f8ca-7599-49ae-bd00-c8cabd692e6e" />
+<img width="1522" height="985" alt="image" src="https://github.com/user-attachments/assets/6ee0c2ab-f3c3-4c79-a834-93ce374f7685" />
 
 ---
 
