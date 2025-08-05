@@ -207,13 +207,6 @@ Let’s build the future of DeFi together 💪
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](./LICENSE) file for full details.
-
----
-
 ## 👨‍💻 Creators
 
 ### 🧠 Ronak Agrawal
