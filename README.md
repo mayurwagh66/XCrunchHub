@@ -1,6 +1,6 @@
 # XCrunchHub
 
-![XCrunchHub Logo](./thirdweb-app/src/assets/Logo.png)
+![XCrunchHub Logo](./thirdweb-app/src/assets/image.png)
 
 ## Your Trusted DeFi Platform
 
