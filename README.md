@@ -132,17 +132,7 @@ XCrunchHub offers flexible subscription options to access premium features:
 ## Project Structure
 
 ```
-├── Backend/            # Backend API services
-├── Subscription.sol    # Smart contract for subscription management
-├── animation/          # Animation assets for the UI
-├── artifacts/          # Smart contract artifacts
-└── thirdweb-app/       # Frontend application
-    ├── src/
-    │   ├── App.jsx     # Main application component
-    │   ├── assets/     # Static assets
-    │   ├── components/ # UI components
-    │   └── ...         # Other source files
-    └── ...             # Configuration files
+<img width="760" height="343" alt="image" src="https://github.com/user-attachments/assets/44c55aea-abe9-44b4-beaf-5a576c664753" />
 ```
 
 ## Getting Started
@@ -236,13 +226,6 @@ See the [LICENSE](./LICENSE) file for full details.
 ### 🧠 Mayur Wagh
 - 🔗 GitHub: [MayurWagh66](https://github.com/MayurWagh66)  
 - 🔗 LinkedIn: [Mayur Wagh](https://linkedin.com/in/mayur-wagh2628)
-
----
-
-## 📬 Contact
-
-For any inquiries, feel free to reach out to us at:  
-📧 **contact@xcrunchhub.com**
 
 ---
 
