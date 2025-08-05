@@ -64,6 +64,8 @@
 - Smart investment suggestions
 - Instant fraud detection alerts
 - Interactive bot commands & multilingual support
+<img width="800" height="516" alt="image" src="https://github.com/user-attachments/assets/32b24c51-2a70-4f65-851b-b3186e0a4cce" />
+<img width="1522" height="985" alt="image" src="https://github.com/user-attachments/assets/7731c3fb-bf35-47db-ba2b-eae2dd91f18d" />
 
 ---
 
@@ -75,6 +77,37 @@
 4. **Multi-Chain Support** — Ethereum, Polygon, Avalanche, Linea
 
 ---
+## Smart Contract Integration
+
+XCrunchHub utilizes blockchain technology for secure and transparent subscription management:
+
+### Subscription Smart Contract
+
+Our `Subscription.sol` contract manages user subscriptions with the following features:
+
+- **Flexible Subscription Plans**: Weekly, monthly, and yearly options with different pricing tiers
+- **Automatic Duration Management**: Extends existing subscriptions or creates new ones
+- **Transparent Pricing**: All subscription costs are publicly visible on the blockchain
+- **Owner Controls**: Allows for price updates and fund management by contract owner
+- **Event Logging**: Emits events for subscriptions, price updates, and withdrawals for full transparency
+
+```solidity
+// Key functions include:
+function subscribe(uint8 _plan) external payable;
+function isSubscribed(address _user) external view returns (bool);
+function updatePrices(uint256 _priceWeek, uint256 _priceMonth, uint256 _priceYear) external onlyOwner;
+```
+
+## Subscription Model
+
+XCrunchHub offers flexible subscription options to access premium features:
+- Weekly plans for short-term needs (0.01 ETH)
+- Monthly subscriptions for regular users (0.03 ETH)
+- Annual plans with the best value (0.3 ETH)
+
+All subscriptions are managed through our secure blockchain-based subscription system, ensuring transparency and control over your membership.
+<img width="800" height="409" alt="image" src="https://github.com/user-attachments/assets/2d101166-7e0e-4c3a-a1d1-14169f453dcc" />
+
 
 ## 🔗 API Integration
 
@@ -165,37 +198,7 @@
    yarn dev
    ```
 
-3. Open your browser and navigate to `http://localhost:5173`
-
-## Smart Contract Integration
-
-XCrunchHub utilizes blockchain technology for secure and transparent subscription management:
-
-### Subscription Smart Contract
-
-Our `Subscription.sol` contract manages user subscriptions with the following features:
-
-- **Flexible Subscription Plans**: Weekly, monthly, and yearly options with different pricing tiers
-- **Automatic Duration Management**: Extends existing subscriptions or creates new ones
-- **Transparent Pricing**: All subscription costs are publicly visible on the blockchain
-- **Owner Controls**: Allows for price updates and fund management by contract owner
-- **Event Logging**: Emits events for subscriptions, price updates, and withdrawals for full transparency
-
-```solidity
-// Key functions include:
-function subscribe(uint8 _plan) external payable;
-function isSubscribed(address _user) external view returns (bool);
-function updatePrices(uint256 _priceWeek, uint256 _priceMonth, uint256 _priceYear) external onlyOwner;
-```
-
-## Subscription Model
-
-XCrunchHub offers flexible subscription options to access premium features:
-- Weekly plans for short-term needs (0.01 ETH)
-- Monthly subscriptions for regular users (0.03 ETH)
-- Annual plans with the best value (0.3 ETH)
-
-All subscriptions are managed through our secure blockchain-based subscription system, ensuring transparency and control over your membership.
+3. Open your browser and navigate to `http://localhost:5173
 
 ## Technologies Used
 
