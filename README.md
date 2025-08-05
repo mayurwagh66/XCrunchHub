@@ -105,7 +105,8 @@ XCrunchHub offers flexible subscription options to access premium features:
 - Monthly subscriptions for regular users (0.03 ETH)
 - Annual plans with the best value (0.3 ETH)
 
-All subscriptions are managed through our secure blockchain-based subscription system, ensuring transparency and control over your membership.
+- All subscriptions are managed through our secure blockchain-based subscription system, ensuring transparency and control over your membership.
+
 <img width="800" height="409" alt="image" src="https://github.com/user-attachments/assets/2d101166-7e0e-4c3a-a1d1-14169f453dcc" />
 
 
@@ -200,39 +201,49 @@ All subscriptions are managed through our secure blockchain-based subscription s
 
 3. Open your browser and navigate to `http://localhost:5173
 
-## Technologies Used
+## 🧱 Technologies Used
 
-- **Frontend**: React, Tailwind CSS, Vite
-- **Backend**: Node.js, Express
-- **Blockchain**: Ethereum, Polygon, Avalanche, Linea
-- **Smart Contracts**: Solidity
-- **Web3 Integration**: Thirdweb SDK
-- **Data Visualization**: Recharts, D3.js
-
-## Contributing
-
-We welcome contributions to XCrunchHub! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Creators
-
-### Ronak Agrawal
-- **GitHub**: [Ronak2027](https://github.com/Ronak2027)
-- **LinkedIn**: [Ronak Agrawal](https://linkedin.com/in/ronak-agrawal-556657288)
-
-### Mayur Wagh
-- **GitHub**: [MayurWagh66](https://github.com/MayurWagh66)
-- **LinkedIn**: [Mayur Wagh](https://linkedin.com/in/mayur-wagh2628)
-
-## Contact
-
-For any inquiries, please reach out to us at contact@xcrunchhub.com
+- 🚀 **Frontend**: React, Tailwind CSS, Vite  
+- ⚙️ **Backend**: Node.js, Express  
+- ⛓️ **Blockchain**: Ethereum, Polygon, Avalanche, Linea  
+- 💾 **Smart Contracts**: Solidity  
+- 🌐 **Web3 Integration**: Thirdweb SDK  
+- 📊 **Data Visualization**: Recharts, D3.js  
 
 ---
 
-© 2024 XCrunchHub. All rights reserved.
+## 🤝 Contributing
 
+We welcome contributions to **XCrunchHub**!  
+Feel free to fork the repo, make changes, and submit a **Pull Request**.  
+Let’s build the future of DeFi together 💪
 
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for full details.
+
+---
+
+## 👨‍💻 Creators
+
+### 🧠 Ronak Agrawal
+- 🔗 GitHub: [Ronak2027](https://github.com/Ronak2027)  
+- 🔗 LinkedIn: [Ronak Agrawal](https://linkedin.com/in/ronak-agrawal-556657288)
+
+### 🧠 Mayur Wagh
+- 🔗 GitHub: [MayurWagh66](https://github.com/MayurWagh66)  
+- 🔗 LinkedIn: [Mayur Wagh](https://linkedin.com/in/mayur-wagh2628)
+
+---
+
+## 📬 Contact
+
+For any inquiries, feel free to reach out to us at:  
+📧 **contact@xcrunchhub.com**
+
+---
+
+© 2024 **XCrunchHub** — All rights reserved.
