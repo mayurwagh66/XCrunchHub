@@ -124,7 +124,7 @@ XCrunchHub offers flexible subscription options to access premium features:
 - **UnleashNFTs API** - Powers our NFT analytics and blockchain data
 - **Etherscan API** - Provides transaction and contract verification data
 - **Google Generative AI** - Enhances our AI analytics capabilities
-- **Groq API** - Powers advanced natural language processing for insights
+- **Gemini API** - Powers advanced natural language processing for insights
 
 ## Project Structure
 
